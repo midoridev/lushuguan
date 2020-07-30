@@ -2,7 +2,7 @@
 source /usr/share/vim/vim*/defaults.vim
 " ^ this may not work on all systems. If you find that writing a ~/.vimrc
 " removes some settings you like using, I would recommend tracking down the
-" default config that is loaded by your system using strace (see findmyvimrc.sh)
+" default config that is loaded by your system using strace (see .findmyvimrc.sh)
 " This will be overwritten when running  set_my_env.sh
 
 "    tabstop tells vim how many spaces wide a tab should be
