@@ -1,0 +1,8 @@
+# System config
+export EDITOR='vi -e'
+export VISUAL='vi'
+
+# Aliases
+alias python='python3'
+
+alias pip='pip3'
