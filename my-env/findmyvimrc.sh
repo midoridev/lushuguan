@@ -43,5 +43,6 @@ rm ${tmpdir}/vimrc_strace ${tmpdir}/defaultrc_strace
 
 echo ""
 echo "Please inspect ${tmpdir}/vimrc_diffs to find when the default config is loaded."
-echo "I recommend searching for instances of ${HOME}/.vimrc with vim or cat | less."
+echo "I recommend searching for instances of ${HOME}/.vimrc with vim or cat | less (remember to escape /)."
+echo "ex. /usr/share/vim/vim81/defaults.vim"
 
