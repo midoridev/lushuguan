@@ -1,5 +1,5 @@
 " Load default vim options
-"source <default_vim_config_path>
+source /usr/share/vim/vim*/defaults.vim
 " ^ this may not work on all systems. If you find that writing a ~/.vimrc
 " removes some settings you like using, I would recommend tracking down the
 " default config that is loaded by your system using strace (see findmyvimrc.sh)
