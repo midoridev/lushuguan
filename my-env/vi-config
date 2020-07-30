@@ -1,0 +1,10 @@
+" Load default vim options
+source /usr/share/vim/vim81/defaults.vim
+"    tabstop tells vim how many spaces wide a tab should be
+:set tabstop=4
+"    shiftwidth tells vim how far into a line to automatically indent
+:set shiftwidth=4
+"    expandtab tells vim to use spaces instead of tabs. Insert tab characters with ^V+Tab
+:set expandtab
+" Disable unfavorable auto-comment format options
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

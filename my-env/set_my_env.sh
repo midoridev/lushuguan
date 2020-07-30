@@ -1,0 +1,1 @@
+cp vi-config ~/.vimrc
