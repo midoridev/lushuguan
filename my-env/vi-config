@@ -1,5 +1,9 @@
 " Load default vim options
-source /usr/share/vim/vim81/defaults.vim
+"source /usr/share/vim/vim81/defaults.vim
+" ^ this may not work on all systems. If you find that writing a ~/.vimrc
+" removes some settings you like using, I would recommend tracking down the
+" default config that is loaded by your system using strace (see findmyvimrc.sh)
+
 "    tabstop tells vim how many spaces wide a tab should be
 :set tabstop=4
 "    shiftwidth tells vim how far into a line to automatically indent
