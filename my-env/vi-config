@@ -13,3 +13,8 @@ source /usr/share/vim/vim*/defaults.vim
 :set expandtab
 " Disable unfavorable auto-comment format options
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Recent issue with files opening in replace mode, these are supposed to be fixes
+" https://github.com/microsoft/terminal/issues/1637
+"set t_u7=
+"set ambw=double

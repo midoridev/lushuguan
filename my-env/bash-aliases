@@ -6,3 +6,5 @@ export VISUAL='vi'
 alias python='python3'
 
 alias pip='pip3'
+
+alias wfe='explorer.exe'
