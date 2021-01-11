@@ -3,7 +3,7 @@ Run `set_my_env.sh` to apply all changes. See comments in `vi-config` for detail
 Aliases:
 ========
 | Alias | Desc. | Use |
-=======================
+| :---: | :---- | --- |
 | python | Simplifies invocation of python3 | `python` |
 | pip | Simplifies invocation of pip for python3 | `pip` |
 | wfe | Open the windows file explorer at the target directory | `wfe .` |
